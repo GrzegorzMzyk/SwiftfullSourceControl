@@ -43,7 +43,7 @@ struct ContentView: View {
                 .foregroundStyle(Color.red)
                 .padding()
             Button(action: {}, label: {
-                Text("Button")
+                Text("Press me")
                    
                     .padding()
                     .background(Color.red)
