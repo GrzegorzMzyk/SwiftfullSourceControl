@@ -38,13 +38,14 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("HI")
-            Image(systemName: "dot.radiowaves.left.and.right")
+           
+            Image(systemName: "car.top.door.rear.left.and.rear.right.open.fill")
 
                 .font(.largeTitle)
                 .foregroundStyle(Color.red)
                 .padding()
             Button(action: {}, label: {
-                Text("Press me")
+                Text("Press me NOW")
                    
                     .padding()
                     .background(Color.red)
