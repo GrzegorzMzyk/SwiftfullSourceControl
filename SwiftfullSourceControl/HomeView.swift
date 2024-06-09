@@ -25,6 +25,9 @@ struct HomeView: View {
             }
             .frame(width: 100)
         }
+        .onAppear() {
+            
+        }
     }
 }
 #Preview {
