@@ -43,11 +43,15 @@ struct ContentView: View {
                 .foregroundStyle(Color.red)
                 .padding()
             Button(action: {}, label: {
-                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+                Text("Button")
+                   
+                    .padding()
+                    .background(Color.red)
             })
-            Button("Anothet button") {
+            Button("Naciśni") {
                 
             }
+            
         }
     }
 }
