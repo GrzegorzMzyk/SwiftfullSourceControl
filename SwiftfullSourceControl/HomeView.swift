@@ -14,6 +14,7 @@ struct HomeView: View {
             Text("Screen 2")
             Text("Screen 2")
             Image(systemName: "tv.circle")
+                .background(Color.blue)
                 .font(.title3)
 
         }
