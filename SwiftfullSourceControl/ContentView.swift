@@ -36,25 +36,16 @@ import SwiftData
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("HI")
-            Image(systemName: "dot.radiowaves.left.and.right")
-
-                .font(.largeTitle)
-                .foregroundStyle(Color.red)
-                .padding()
-            Button(action: {}, label: {
-                Text("Press me")
-                   
-                    .padding()
-                    .background(Color.red)
-            })
-            Button("Naciśni") {
-                
+        VStack{
+            ScrollView {
+                ForEach(0..<20) { index in
+                    Text("Tytuł \(index)")
+                }
             }
+        }
             
         }
-    }
+    
 }
 
 
