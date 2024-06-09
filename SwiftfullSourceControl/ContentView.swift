@@ -4,6 +4,24 @@
 //
 //  Created by Grzegorz Mzyk on 09/06/2024.
 //
+/*
+ COMMIT MESSAGES
+ 
+ New Featrure:
+ [Feature] Description of the feature
+ 
+ Bug in Production:
+ [Patch] Description of patch
+ 
+ Bug not in Production:
+ [Bug] Description of the bug
+ 
+ Mundane Task:
+ [Clean] Description of changes
+ 
+ Relase
+ [Relase] Description of relase
+ */
 
 import SwiftUI
 import SwiftData
