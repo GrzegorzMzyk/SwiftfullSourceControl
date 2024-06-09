@@ -5,6 +5,13 @@
 //  Created by Grzegorz Mzyk on 09/06/2024.
 //
 /*
+ Clone = Copying the repo locally
+ Commit = Save the "checkpoint" on our current branch
+ Stage = Prepare changes for a comit
+ Stash = Save changes later
+ 
+ 
+ 
  COMMIT MESSAGES
  
  New Featrure:
