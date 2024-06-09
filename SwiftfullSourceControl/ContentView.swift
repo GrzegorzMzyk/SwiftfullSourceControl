@@ -16,7 +16,9 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .foregroundStyle(Color.red)
                 .padding()
-          
+            Button(action: {}, label: {
+                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+            })
         }
     }
 }
