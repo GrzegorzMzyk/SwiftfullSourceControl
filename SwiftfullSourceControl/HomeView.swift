@@ -13,7 +13,7 @@ struct HomeView: View {
         VStack {
             Text("press me 1")
             RoundedRectangle(cornerRadius: 25.0)
-                .frame(width: 150, height: 150)
+                .frame(width: 50)
             Text("Screen 12345")
             
             Image(systemName: "tv.circle")
