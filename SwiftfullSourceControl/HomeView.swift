@@ -11,7 +11,7 @@ struct HomeView: View {
     @State private var title: String = ""
     var body: some View {
         VStack {
-            Text("Screen 1")
+            Text("press me 1")
             Text("Screen 2")
             Text("Screen 3")
             Text("Screen 4")
