@@ -38,7 +38,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("HI")
-            Image(systemName: "square.and.arrow.up.circle.fill")
+            Image(systemName: "dot.radiowaves.left.and.right")
+
                 .font(.largeTitle)
                 .foregroundStyle(Color.red)
                 .padding()
