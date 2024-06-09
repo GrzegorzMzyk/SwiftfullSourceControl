@@ -43,6 +43,18 @@ struct ContentView: View {
                 }
             }
         }
+        Image(systemName: "car.top.door.rear.left.and.rear.right.open.fill")
+
+            .font(.largeTitle)
+            .foregroundStyle(Color.red)
+            .padding()
+            .padding()
+        Button(action: {}, label: {
+            Text("Press me NOW")
+               
+                .padding()
+                .background(Color.red)
+        })
             
         }
     
