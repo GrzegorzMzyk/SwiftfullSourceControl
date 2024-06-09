@@ -13,15 +13,17 @@ struct HomeView: View {
         VStack {
             Text("press me 1")
             RoundedRectangle(cornerRadius: 25.0)
-                .frame(width: 100, height: 100)
+                .frame(width: 150, height: 150)
             Text("Screen 12345")
-           
+            
             Image(systemName: "tv.circle")
                 .background(Color.blue)
                 .font(.title3)
-            Circle()
-                .frame(width: 100)
-
+            Group{
+                Circle()
+                Circle()
+            }
+            .frame(width: 100)
         }
     }
 }
