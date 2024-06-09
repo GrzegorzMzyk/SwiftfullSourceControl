@@ -9,10 +9,16 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Screen 2")
+        VStack {
+            Text("Screen 2")
+            Text("Screen 2")
+            Text("Screen 2")
+            Image(systemName: "tv.circle")
+                .font(.title3)
+
+        }
     }
 }
-
 #Preview {
     HomeView()
 }
