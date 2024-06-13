@@ -8,19 +8,18 @@
 import SwiftUI
 
 struct HomeView: View {
-    @State private var title: String = ""
+    @State private var title: String = "mmmm"
     var body: some View {
         VStack {
-            Text("press me 1")
+            Text("press me 10")
             RoundedRectangle(cornerRadius: 25.0)
                 .frame(width: 50, height: 100)
-            Text("Screen 12345")
+            Text("Screen 1")
             
             Image(systemName: "tv.circle")
-                .background(Color.blue)
+                .background(Color.red)
                 .font(.title3)
             Group{
-                Circle()
                 Circle()
             }
             .frame(width: 100)
