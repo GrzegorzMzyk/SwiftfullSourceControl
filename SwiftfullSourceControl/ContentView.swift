@@ -56,6 +56,9 @@ struct ContentView: View {
                 .padding()
                 .background(Color.red)
         })
+        Button("seconf button") {
+            
+        }
             
         }
     
