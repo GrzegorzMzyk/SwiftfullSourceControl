@@ -44,7 +44,7 @@ struct ContentView: View {
             }
         }
         Image(systemName: "car.top.door.rear.left.and.rear.right.open.fill")
-
+            .padding()
             .font(.largeTitle)
             .foregroundStyle(Color.red)
             .padding()
