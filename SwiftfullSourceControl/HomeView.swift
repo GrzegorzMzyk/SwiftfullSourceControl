@@ -11,7 +11,7 @@ struct HomeView: View {
     @State private var title: String = ""
     var body: some View {
         VStack {
-            Text("press me 1")
+            Text("press me 10")
             RoundedRectangle(cornerRadius: 25.0)
                 .frame(width: 50, height: 100)
             Text("Screen 12345")
@@ -20,7 +20,6 @@ struct HomeView: View {
                 .background(Color.blue)
                 .font(.title3)
             Group{
-                Circle()
                 Circle()
             }
             .frame(width: 100)
