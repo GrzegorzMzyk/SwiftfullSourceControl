@@ -11,10 +11,10 @@ struct HomeView: View {
     @State private var title: String = "mmmm"
     var body: some View {
         VStack {
-            Text("press me 10")
+            Text("press me")
             RoundedRectangle(cornerRadius: 25.0)
                 .frame(width: 50, height: 100)
-            Text("Screen 1")
+            Text("Screen")
             
             Image(systemName: "tv.circle")
                 .background(Color.red)
