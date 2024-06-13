@@ -39,7 +39,7 @@ struct ContentView: View {
         VStack{
             ScrollView {
                 ForEach(0..<10) { index in
-                    Text("Tytułyyyy \(index)")
+                    Text("zmiany \(index)")
                 }
             }
         }
@@ -49,7 +49,7 @@ struct ContentView: View {
             .foregroundStyle(Color.red)
             .padding()
         Button(action: {}, label: {
-            Text("Buttonyyyy")
+            Text("Buttonyy")
                
                 .padding()
                 .background(Color.red)
