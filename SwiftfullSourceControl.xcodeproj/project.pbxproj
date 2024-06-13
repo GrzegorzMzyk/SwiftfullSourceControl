@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1943D4052C1B66210061019B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943D4042C1B66210061019B /* SettingsView.swift */; };
 		1950086B2C15E6D9009120E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1950086A2C15E6D9009120E2 /* HomeView.swift */; };
 		1950FC492C15C5ED005BA2F3 /* SwiftfullSourceControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1950FC482C15C5ED005BA2F3 /* SwiftfullSourceControlApp.swift */; };
 		1950FC4B2C15C5ED005BA2F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1950FC4A2C15C5ED005BA2F3 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1943D4042C1B66210061019B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1950086A2C15E6D9009120E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1950FC452C15C5ED005BA2F3 /* SwiftfullSourceControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfullSourceControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1950FC482C15C5ED005BA2F3 /* SwiftfullSourceControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfullSourceControlApp.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				1950FC482C15C5ED005BA2F3 /* SwiftfullSourceControlApp.swift */,
 				1950FC4A2C15C5ED005BA2F3 /* ContentView.swift */,
 				1950086A2C15E6D9009120E2 /* HomeView.swift */,
+				1943D4042C1B66210061019B /* SettingsView.swift */,
 				1950FC4C2C15C5ED005BA2F3 /* Item.swift */,
 				1950FC4E2C15C5EF005BA2F3 /* Assets.xcassets */,
 				1950FC502C15C5EF005BA2F3 /* Preview Content */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1943D4052C1B66210061019B /* SettingsView.swift in Sources */,
 				1950FC4B2C15C5ED005BA2F3 /* ContentView.swift in Sources */,
 				1950086B2C15E6D9009120E2 /* HomeView.swift in Sources */,
 				1950FC4D2C15C5ED005BA2F3 /* Item.swift in Sources */,
