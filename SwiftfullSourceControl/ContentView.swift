@@ -42,7 +42,7 @@ struct ContentView: View {
         VStack{
             ScrollView {
                 ForEach(0..<10) { index in
-                    Text("zmiany zmiany \(index)")
+                    Text("What? \(index)")
                 }
             }
         }
