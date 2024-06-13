@@ -17,7 +17,7 @@ struct HomeView: View {
             Text("Screen 1")
             
             Image(systemName: "tv.circle")
-                .background(Color.blue)
+                .background(Color.red)
                 .font(.title3)
             Group{
                 Circle()
