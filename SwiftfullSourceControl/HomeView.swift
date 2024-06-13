@@ -14,7 +14,7 @@ struct HomeView: View {
             Text("press me 10")
             RoundedRectangle(cornerRadius: 25.0)
                 .frame(width: 50, height: 100)
-            Text("Screen 12345")
+            Text("Screen 1")
             
             Image(systemName: "tv.circle")
                 .background(Color.blue)
