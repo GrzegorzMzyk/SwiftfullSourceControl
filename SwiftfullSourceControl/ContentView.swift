@@ -52,7 +52,7 @@ struct ContentView: View {
             .foregroundStyle(Color.black)
             .padding()
         Button(action: {}, label: {
-            Text("Buttonyy")
+            Text("Button")
                
                 .padding()
                 .background(Color.red)
