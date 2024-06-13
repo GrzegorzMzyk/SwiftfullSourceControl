@@ -45,8 +45,8 @@ struct ContentView: View {
         }
         Image(systemName: "car.top.door.rear.left.and.rear.right.open.fill")
             .padding()
-            .font(.largeTitle)
-            .foregroundStyle(Color.red)
+            .font(.title2)
+            .foregroundStyle(Color.black)
             .padding()
         Button(action: {}, label: {
             Text("Buttonyy")
