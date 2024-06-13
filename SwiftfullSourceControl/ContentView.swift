@@ -39,17 +39,17 @@ struct ContentView: View {
         VStack{
             ScrollView {
                 ForEach(0..<10) { index in
-                    Text("Tytuł \(index)")
+                    Text("zmiany \(index)")
                 }
             }
         }
         Image(systemName: "car.top.door.rear.left.and.rear.right.open.fill")
-
-            .font(.largeTitle)
-            .foregroundStyle(Color.red)
+            .padding()
+            .font(.title2)
+            .foregroundStyle(Color.black)
             .padding()
         Button(action: {}, label: {
-            Text("Button")
+            Text("Buttonyy")
                
                 .padding()
                 .background(Color.red)
