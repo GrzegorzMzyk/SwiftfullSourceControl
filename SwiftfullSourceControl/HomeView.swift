@@ -21,6 +21,7 @@ struct HomeView: View {
                 .font(.largeTitle)
             Group{
                 Circle()
+                Circle()
             }
             .frame(width: 100)
         }
