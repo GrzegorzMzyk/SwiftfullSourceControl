@@ -14,6 +14,7 @@
 		1950FC4D2C15C5ED005BA2F3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1950FC4C2C15C5ED005BA2F3 /* Item.swift */; };
 		1950FC4F2C15C5EF005BA2F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1950FC4E2C15C5EF005BA2F3 /* Assets.xcassets */; };
 		1950FC522C15C5EF005BA2F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1950FC512C15C5EF005BA2F3 /* Preview Assets.xcassets */; };
+		19FE09AD2C24430B00C8E01B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE09AC2C24430B00C8E01B /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1950FC4C2C15C5ED005BA2F3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1950FC4E2C15C5EF005BA2F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1950FC512C15C5EF005BA2F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19FE09AC2C24430B00C8E01B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				1950FC4A2C15C5ED005BA2F3 /* ContentView.swift */,
 				1950086A2C15E6D9009120E2 /* HomeView.swift */,
 				1943D4042C1B66210061019B /* SettingsView.swift */,
+				19FE09AC2C24430B00C8E01B /* ProfileView.swift */,
 				1950FC4C2C15C5ED005BA2F3 /* Item.swift */,
 				1950FC4E2C15C5EF005BA2F3 /* Assets.xcassets */,
 				1950FC502C15C5EF005BA2F3 /* Preview Content */,
@@ -150,6 +153,7 @@
 				1950FC4B2C15C5ED005BA2F3 /* ContentView.swift in Sources */,
 				1950086B2C15E6D9009120E2 /* HomeView.swift in Sources */,
 				1950FC4D2C15C5ED005BA2F3 /* Item.swift in Sources */,
+				19FE09AD2C24430B00C8E01B /* ProfileView.swift in Sources */,
 				1950FC492C15C5ED005BA2F3 /* SwiftfullSourceControlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
